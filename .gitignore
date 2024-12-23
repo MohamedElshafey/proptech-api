@@ -1,0 +1,30 @@
+# Binaries for programs and libraries
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+
+# Build directories
+tmp/
+bin/
+dist/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Go specific
+go.sum
+*.modcache
+*.out
+
+# IDE and editor settings
+.vscode/
+.idea/
+.DS_Store
+
+# Environment files
+.env
