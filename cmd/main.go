@@ -10,6 +10,7 @@ import (
 	"github.com/MohamedElshafey/proptech-api/internal/developers"
 	"github.com/MohamedElshafey/proptech-api/internal/offers"
 	"github.com/MohamedElshafey/proptech-api/internal/properties"
+	"github.com/MohamedElshafey/proptech-api/internal/search"
 	"github.com/gorilla/mux"
 )
 
@@ -27,6 +28,7 @@ func main() {
 	properties.RegisterRoutes(r, dbConn)
 	offers.RegisterRoutes(r, dbConn)
 	amenities.RegisterRoutes(r, dbConn)
+	search.RegisterSearchRoutes(r, dbConn)
 
 	// Start server
 	log.Println("Starting server on :8080")

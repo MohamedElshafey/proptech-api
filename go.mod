@@ -8,3 +8,4 @@ require (
 )
 
 require filippo.io/edwards25519 v1.1.0 // indirect
+replace github.com/cosmtrek/air => github.com/air-verse/air v1.61.5
